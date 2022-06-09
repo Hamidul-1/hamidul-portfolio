@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/resume.pdf';
+import image from '../../../developer-portfolio/src/assets/jpg/Hamidul.jpg';
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Md Hamidul Islam',
+    title: "MERN Stack Developer",
+    desciption:"I am a professional MERN Stack Developer. I have more than 1+ years of experience in ReactJS. I always try to learn & share new skills and stay updated myself.",
+    image: image,
     resumePdf: resume
 }
