@@ -1,7 +1,7 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
+import one from '../assets/svg/projects/one.png'
+import two from '../assets/svg/projects/two.png'
+import three from '../assets/svg/projects/three.png'
+import four from '../assets/svg/projects/four.png'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
@@ -11,38 +11,39 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Parts Manufacture',
+        projectDesc: 'A Mern Stack and Fully responsive Website side',
+        tags: ['React JS', 'Node JS(Express Js)', 'MongoDB', 'React Router', 'Tailwind CSS', 'DaisyUI', 'Firebase', 'React Firebase Hook', 'React query', 'JWT', 'Heroku', 'React hook form', 'React Testify'],
+        code: 'https://github.com/Hamidul-1/bike-parts-manufacturer-website',
+        SeverCode: 'https://github.com/Hamidul-1/bike-parts-manufacturer-website-server',
+        demo: 'https://bike-parts-manufacturers-3fc17.web.app/',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Laptop Store',
+        projectDesc: 'A Simple E-commerce application',
+        tags: ['React JS',' Node JS(Express Js)', 'MongoDB', 'React Router', 'Bootstrap', 'React-Bootstrap', 'Firebase', 'React Firebase Hook', 'JWT', 'Heroku'],
+        code: 'https://github.com/Hamidul-1/warehouse-management-client-side',
+        demo: 'https://laptop-warehouse-37066.web.app/',
         image: two
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Car Services React App',
+        projectDesc: 'A Service side app',
+        tags: ['React JS', 'Node JS(Express Js)', 'MongoDB', 'React Router', 'Bootstrap', 'React-Bootstrap','Firebase', 'React Firebase Hook', 'JWT', 'Heroku'],
+        code: 'https://github.com/Hamidul-1/genius-car-services',
+        demo: 'https://genius-car-services-a2dab.web.app/',
         image: three
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+        projectName: 'Math Tutor',
+        projectDesc: 'A teaching Website',
         tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/Hamidul-1/math-tutor',
+        demo: 'https://math-tutor-1c0de.web.app/',
         image: four
     },
     {
